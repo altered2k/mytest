@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profilesXml xmlns="http://maven.apache.org/PROFILES/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/PROFILES/1.0.0 http://maven.apache.org/xsd/profiles-1.0.0.xsd">
+	<profiles>
+	
+		<profile>
+			<id>test</id>
+			<properties>			
+				
+				<!-- 数据库连接方式 (jndi||dbcp)-->
+				<bsys.datasource.type>dbcp-test</bsys.datasource.type>
+               
+			</properties>
+		</profile>
+		<profile>
+			<id>product</id>
+			<properties>				
+				<!-- 数据库连接方式 (jndi||dbcp)-->
+				<bsys.datasource.type>dbcp</bsys.datasource.type>              				
+			</properties>
+		</profile>
+	</profiles>
+</profilesXml>

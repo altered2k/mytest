@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cdrd/jdBuildSys/!svn/ver/2230/testproject/hudsontest/src/main/resources
+END
+bsys-sso.properties
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cdrd/jdBuildSys/!svn/ver/2231/testproject/hudsontest/src/main/resources/bsys-sso.properties
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cdrd/jdBuildSys/!svn/ver/2231/testproject/hudsontest/src/main/resources/log4j.xml
+END
